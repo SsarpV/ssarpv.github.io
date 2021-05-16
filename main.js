@@ -36,7 +36,7 @@ TypeWriter.prototype.type = function(){
 
     setTimeout(() => this.type(), typeSpeed);
 }
-const greets = ["Hello there, General Kenobi", "Welcome to my site!", "Have a nice day!", "null", "undefined", "It was a mistake to come here", "I farted on my way here"]
+const greets = ["Hello there, General Kenobi", "Welcome to my site!", "Have a nice day!", "null", "undefined", "It was a mistake to come here"]
 const greet = greets[Math.floor(Math.random() * greets.length)]
 //I have no idea what this is
 document.addEventListener('DOMContentLoaded', init);
